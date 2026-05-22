@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:spotify/pages/home.dart';
+import 'package:spotify/pages/artistas.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,9 +20,10 @@ class MyApp extends StatelessWidget {
             seedColor: Colors.deepPurple
         ),
       ),
-      initialRoute: '/home',
+      initialRoute: '/artistas',
       routes: {
         '/home': (context) => Home(),
+        '/artistas': (context) => Artistas(),
       },
     );
   }

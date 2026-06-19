@@ -88,7 +88,7 @@ class _BuscaState extends State<Busca> {
                   ),
                   RecentSearch(
                     true,
-                    'https://wallpapercave.com/wp/wp4063600.jpg',
+                    'https://imgs.search.brave.com/exYoWJQgeh-R1g2raTsg_4JzkGzRjUexiK2FkC4xz4w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzFkLzM3/LzFkLzFkMzcxZDlj/ZDNjMzZmODI5Yjli/YWMyMWY5MWZmOGE3/LmpwZw',
                     'Alok',
                     'Artista',
                   ),

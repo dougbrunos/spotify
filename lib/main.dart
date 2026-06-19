@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:spotify/pages/album.dart';
 import 'package:spotify/pages/busca.dart';
 import 'package:spotify/pages/home.dart';
 import 'package:spotify/pages/artistas.dart';
@@ -22,12 +23,13 @@ class MyApp extends StatelessWidget {
             seedColor: Colors.deepPurple
         ),
       ),
-      initialRoute: '/busca',
+      initialRoute: '/album',
       routes: {
         '/home': (context) => Home(),
         '/artistas': (context) => Artistas(),
         '/podcasts': (context) => Podcasts(),
         '/busca': (context) => Busca(),
+        '/album': (context) => Album(),
       },
     );
   }

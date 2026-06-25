@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:spotify/widgets/musicaAlbum.dart';
 import 'package:spotify/widgets/navbar.dart';
-import 'package:spotify/widgets/opcaoNavbar.dart';
 
 class Album extends StatefulWidget {
   const Album({super.key});

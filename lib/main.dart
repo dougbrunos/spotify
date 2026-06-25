@@ -3,6 +3,7 @@ import 'package:spotify/pages/album.dart';
 import 'package:spotify/pages/busca.dart';
 import 'package:spotify/pages/home.dart';
 import 'package:spotify/pages/artistas.dart';
+import 'package:spotify/pages/musica.dart';
 import 'package:spotify/pages/podcasts.dart';
 
 void main() {
@@ -23,13 +24,14 @@ class MyApp extends StatelessWidget {
             seedColor: Colors.deepPurple
         ),
       ),
-      initialRoute: '/album',
+      initialRoute: '/musica',
       routes: {
         '/home': (context) => Home(),
         '/artistas': (context) => Artistas(),
         '/podcasts': (context) => Podcasts(),
         '/busca': (context) => Busca(),
         '/album': (context) => Album(),
+        '/musica': (context) => Musica(),
       },
     );
   }
